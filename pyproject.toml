@@ -1,6 +1,6 @@
 [project]
 name = "visor"
-version = "0.1.1"
+version = "0.1.2"
 description = "Makes background process management easy"
 authors = [
     {name = "Ankit Saini", email = "visorme@nkit.dev"},

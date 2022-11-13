@@ -13,8 +13,7 @@ import time
 
 __all__ = ['Visor']
 
-LOG_ID = "python-visor"
-ROOT_LOG_DIR = Path("/var/log") / LOG_ID
+ROOT_LOG_DIR = Path(".visor-logs").absolute()
 
 def _current_log_dir():
     _uid = uuid.uuid4()

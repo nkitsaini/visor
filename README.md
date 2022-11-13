@@ -1,6 +1,11 @@
-# visor
+# Visor
 
-Makes background process management easy.
+Makes background process execution easy. Tested for unix-like operation systems.
+
+Features:
+- No external dependencies
+- Minimal, if you don't want to install you can just copy/paste the [code](https://github.com/nkitsaini/visor/blob/main/visor/visor.py).
+- Supports logging
 
 ## Installation
 ```sh

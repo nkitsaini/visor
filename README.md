@@ -36,3 +36,9 @@ stdout_path, stderr_path = visor.get_log_files(visor.active[0])
 visor.wait()
 
 ```
+
+## Links 
+- PyPI: https://pypi.org/project/visor/
+- Git Repo: https://github.com/nkitsaini/visor
+
+

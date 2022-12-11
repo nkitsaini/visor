@@ -4,6 +4,7 @@ Makes background process execution easy. Tested for unix-like operation systems.
 
 Features:
 - No external dependencies
+- Each process is executed in it's own process group, which makes it easier to execute and kill shell commands.
 - Minimal, if you don't want to install you can just copy/paste the [code](https://github.com/nkitsaini/visor/blob/main/visor/visor.py).
 - Supports logging
 
@@ -11,6 +12,10 @@ Features:
 ```sh
 pip3 install -U visor
 ```
+
+## TODO
+- [ ] Clean API to be more pythonic 
+- [ ] Add tests
 
 ## Usage
 ```py
